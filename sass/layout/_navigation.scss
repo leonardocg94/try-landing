@@ -26,7 +26,8 @@
             right: 3rem;
         }
     }
-
+    
+    
     &__background {
         height: 6rem;
         width: 6rem;
@@ -34,7 +35,7 @@
         position: fixed;
         top: 6.5rem;
         right: 6.5rem;
-        background-image: radial-gradient($color-primary-light, $color-primary-dark);
+        background-image: radial-gradient(#000020, #0071bc);
         z-index: 1000;
         transition: transform .8s cubic-bezier(0.86, 0, 0.07, 1);
 
@@ -54,7 +55,7 @@
         position: fixed;
         top: 0;
         left: 0;
-        z-index: 1500;
+        z-index: -1500;
 
         opacity: 0;
         width: 0;
@@ -98,7 +99,7 @@
         &:hover,
         &:active {
             background-position: 100%;
-            color: $color-primary;
+            color: $fital-primary;
             transform: translateX(1rem);
         }
     }
@@ -112,6 +113,7 @@
     &__checkbox:checked ~ &__nav {
         opacity: 1;
         width: 100%;
+        z-index: 1500;
     }
 
 

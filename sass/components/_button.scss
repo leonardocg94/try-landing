@@ -43,11 +43,11 @@
     }
 
     &--green {
-        background-color: $color-primary;
+        background-color: #000;
         color: $color-white;
 
         &::after {
-            background-color: $color-primary;
+            background-color: #000;
         }
     }
     
