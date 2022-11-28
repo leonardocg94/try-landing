@@ -957,24 +957,17 @@ body {
 .section-stories {
   position: relative;
   padding: 15rem 0; }
+  .section-stories .process-step {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .section-stories .process-step__image {
+      width: 90%; }
   @media only screen and (max-width: 56.25em) {
     .section-stories {
       padding: 10rem 0; } }
-  .section-stories .flush {
-    width: 500px;
-    height: 500px; }
-    @media only screen and (max-width: 37.5em) {
-      .section-stories .flush {
-        max-width: 150px;
-        max-height: 150px; } }
-    @media only screen and (max-width: 56.25em) {
-      .section-stories .flush {
-        max-width: 300px;
-        max-height: 300px; } }
-    @media only screen and (max-width: 75em) {
-      .section-stories .flush {
-        max-width: 400px;
-        max-height: 400px; } }
 
 .section-book {
   padding: 5rem 0;

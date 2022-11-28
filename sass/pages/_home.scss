@@ -49,26 +49,20 @@
   //   rgba(#170076, 0.7)
   // );
 
-  @include respond(tab-port) {
-    padding: 10rem 0;
+  .process-step {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__image {
+      width: 90%;  
+    }
   }
 
-  .flush {
-    width: 500px;
-    height: 500px;
-
-    @include respond(phone) {
-      max-width: 150px;
-      max-height: 150px;
-    }
-    @include respond(tab-port) {
-      max-width: 300px;
-      max-height: 300px;
-    }
-    @include respond(tab-land) {
-      max-width: 400px;
-      max-height: 400px;
-    }
+  @include respond(tab-port) {
+    padding: 10rem 0;
   }
 }
 

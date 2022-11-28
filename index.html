@@ -1,188 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link
-      href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
-      rel="stylesheet"
-    />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="shortcut icon" type="image/png" href="img/fital-favicon.png" />
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
-    <title>Fital | Metaverso</title>
-  </head>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet" />
 
-  <body>
-    <div class="navigation">
-      <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="shortcut icon" type="image/png" href="img/fital-favicon.png" />
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <title>Fital | Metaverso</title>
+</head>
 
-      <label for="navi-toggle" class="navigation__button">
-        <span class="navigation__icon">&nbsp;</span>
-      </label>
+<body>
+  <div class="navigation">
+    <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
 
-      <div class="navigation__background">&nbsp;</div>
+    <label for="navi-toggle" class="navigation__button">
+      <span class="navigation__icon">&nbsp;</span>
+    </label>
 
-      <nav class="navigation__nav">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a href="#section-about" class="navigation__link"
-              ><span>01</span>¿Quiénes somos?</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#section-tours" class="navigation__link"
-              ><span>02</span>Productos</a
-            >
-          </li>
-          <li class="navigation__item">
-            <a href="#section-book" class="navigation__link"
-              ><span>03</span>Contactáctanos</a
-            >
-          </li>
-        </ul>
-      </nav>
+    <div class="navigation__background">&nbsp;</div>
+
+    <nav class="navigation__nav">
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a href="#section-about" class="navigation__link"><span>01</span>¿Quiénes somos?</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#section-tours" class="navigation__link"><span>02</span>Productos</a>
+        </li>
+        <li class="navigation__item">
+          <a href="#section-book" class="navigation__link"><span>03</span>Contactáctanos</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+
+  <header class="header">
+    <div class="header__logo-box">
+      <img src="img/logo-fital-blanco-transparente.png" alt="Logo" class="header__logo" />
     </div>
 
-    <header class="header">
-      <div class="header__logo-box">
-        <img
-          src="img/logo-fital-blanco-transparente.png"
-          alt="Logo"
-          class="header__logo"
-        />
+    <div class="header__text-box">
+      <h1 class="heading-primary">
+        <span class="heading-primary--main">Metaverso Financiero</span>
+        <span class="heading-primary--sub">Protege y multiplica tu dinero</span>
+      </h1>
+
+      <a href="#section-tours" class="btn btn--white btn--animated">Empieza ahora</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-about" id="section-about">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">¿Quiénes somos?</h2>
       </div>
 
-      <div class="header__text-box">
-        <h1 class="heading-primary">
-          <span class="heading-primary--main">Metaverso Financiero</span>
-          <span class="heading-primary--sub"
-            >Protege y multiplica tu dinero</span
-          >
-        </h1>
-
-        <a href="#section-tours" class="btn btn--white btn--animated"
-          >Empieza ahora</a
-        >
-      </div>
-    </header>
-
-    <main>
-      <section class="section-about" id="section-about">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">¿Quiénes somos?</h2>
+      <div class="row">
+        <div class="col-1-of-2">
+          <p class="paragraph">
+            Somos una Fintech creada para proteger, administrar y multiplicar
+            el patrimonio de nuestros clientes para que estos trasciendan a
+            través del tiempo. FITAL nació buscando ser la mejor opción en el
+            mercado: rápida, económica y confiable en el resguardo y
+            administración de bienes. Lo que buscamos es que al automatizar el
+            proceso, podamos poner al alcance de todos la oportunidad de
+            disfrutar estos beneficios a un precio más accesible.
+          </p>
+          <h3 class="heading-tertiary u-margin-bottom-small">Misión</h3>
+          <p class="paragraph">
+            A través de la digitalización de procesos notariales, legales,
+            financieros y de protección, brindar practicidad, anonimato,
+            seguridad y certeza a las personas de que su patrimonio estará en
+            buenas manos haciendo uso de las mejores tecnologías en seguridad.
+          </p>
         </div>
+        <div class="col-1-of-2">
+          <div class="composition">
+            <img srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
+              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 1"
+              class="composition__photo composition__photo--p1" src="img/nat-1-large.jpg" />
 
-        <div class="row">
-          <div class="col-1-of-2">
-            <p class="paragraph">
-              Somos una Fintech creada para proteger, administrar y multiplicar
-              el patrimonio de nuestros clientes para que estos trasciendan a
-              través del tiempo. FITAL nació buscando ser la mejor opción en el
-              mercado: rápida, económica y confiable en el resguardo y
-              administración de bienes. Lo que buscamos es que al automatizar el
-              proceso, podamos poner al alcance de todos la oportunidad de
-              disfrutar estos beneficios a un precio más accesible.
-            </p>
-            <h3 class="heading-tertiary u-margin-bottom-small">Misión</h3>
-            <p class="paragraph">
-              A través de la digitalización de procesos notariales, legales,
-              financieros y de protección, brindar practicidad, anonimato,
-              seguridad y certeza a las personas de que su patrimonio estará en
-              buenas manos haciendo uso de las mejores tecnologías en seguridad.
-            </p>
-          </div>
-          <div class="col-1-of-2">
-            <div class="composition">
-              <img
-                srcset="img/nat-1.jpg 300w, img/nat-1-large.jpg 1000w"
-                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                alt="Photo 1"
-                class="composition__photo composition__photo--p1"
-                src="img/nat-1-large.jpg"
-              />
+            <img srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
+              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 2"
+              class="composition__photo composition__photo--p2" src="img/nat-2-large.jpg" />
 
-              <img
-                srcset="img/nat-2.jpg 300w, img/nat-2-large.jpg 1000w"
-                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                alt="Photo 2"
-                class="composition__photo composition__photo--p2"
-                src="img/nat-2-large.jpg"
-              />
+            <img srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
+              sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px" alt="Photo 3"
+              class="composition__photo composition__photo--p3" src="img/nat-3-large.jpg" />
 
-              <img
-                srcset="img/nat-3.jpg 300w, img/nat-3-large.jpg 1000w"
-                sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                alt="Photo 3"
-                class="composition__photo composition__photo--p3"
-                src="img/nat-3-large.jpg"
-              />
-
-              <!--
+            <!--
                             <img src="img/nat-1-large.jpg" alt="Photo 1" class="composition__photo composition__photo--p1">
                             <img src="img/nat-2-large.jpg" alt="Photo 2" class="composition__photo composition__photo--p2">
                             <img src="img/nat-3-large.jpg" alt="Photo 3" class="composition__photo composition__photo--p3">
                             -->
-            </div>
           </div>
         </div>
-        <div class="row">
-          <h3 class="heading-tertiary u-margin-bottom-small">Visión</h3>
-          <p class="paragraph">
-            Proteger el patrimonio de las personas con la finalidad de que
-            trasciendan a través del tiempo.
-          </p>
-          <h3 class="heading-tertiary u-margin-bottom-small">Valores</h3>
-          <!-- <p class="paragraph">
+      </div>
+      <div class="row">
+        <h3 class="heading-tertiary u-margin-bottom-small">Visión</h3>
+        <p class="paragraph">
+          Proteger el patrimonio de las personas con la finalidad de que
+          trasciendan a través del tiempo.
+        </p>
+        <h3 class="heading-tertiary u-margin-bottom-small">Valores</h3>
+        <!-- <p class="paragraph">
             Proteger el patrimonio de las personas con la finalidad de que
             trasciendan a través del tiempo.
           </p> -->
-          <ul style="list-style: none">
-            <li style="margin-bottom: 20px">
-              <span class="heading-tertiary">Confianza: </span>
-              <p class="paragraph" style="display: inline">
-                Queremos transmitir la certeza de que cuidaremos y
-                administraremos sus bienes de la mejor manera.
-              </p>
-            </li>
-            <li style="margin-bottom: 20px">
-              <span class="heading-tertiary">Seguridad: </span>
-              <p class="paragraph" style="display: inline">
-                Tenemos estrictos protocolos de seguridad y certificados, que
-                avalan las actividades internas de FITAL.
-              </p>
-            </li>
-            <li style="margin-bottom: 20px">
-              <span class="heading-tertiary">Compromiso: </span>
-              <p class="paragraph" style="display: inline">
-                Estamos comprometidos con cumplir nuestro objetivo: proteger el
-                patrimonio de las personas para que trascienda a través del
-                tiempo.
-              </p>
-            </li>
-            <li style="margin-bottom: 20px">
-              <span class="heading-tertiary">Honestidad: </span>
-              <p class="paragraph" style="display: inline">
-                Los testadores pueden estar seguros que todas las acciones que
-                realicemos serán con transparencia y pensando en su protección y
-                la de sus bienes.
-              </p>
-            </li>
-            <li style="margin-bottom: 20px">
-              <span class="heading-tertiary">Innovación: </span>
-              <p class="paragraph" style="display: inline">
-                La innovación es parte de nosotros, es lo que nos llevó a
-                disruptir en el mercado al digitalizar el proceso..
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <ul style="list-style: none">
+          <li style="margin-bottom: 20px">
+            <span class="heading-tertiary">Confianza: </span>
+            <p class="paragraph" style="display: inline">
+              Queremos transmitir la certeza de que cuidaremos y
+              administraremos sus bienes de la mejor manera.
+            </p>
+          </li>
+          <li style="margin-bottom: 20px">
+            <span class="heading-tertiary">Seguridad: </span>
+            <p class="paragraph" style="display: inline">
+              Tenemos estrictos protocolos de seguridad y certificados, que
+              avalan las actividades internas de FITAL.
+            </p>
+          </li>
+          <li style="margin-bottom: 20px">
+            <span class="heading-tertiary">Compromiso: </span>
+            <p class="paragraph" style="display: inline">
+              Estamos comprometidos con cumplir nuestro objetivo: proteger el
+              patrimonio de las personas para que trascienda a través del
+              tiempo.
+            </p>
+          </li>
+          <li style="margin-bottom: 20px">
+            <span class="heading-tertiary">Honestidad: </span>
+            <p class="paragraph" style="display: inline">
+              Los testadores pueden estar seguros que todas las acciones que
+              realicemos serán con transparencia y pensando en su protección y
+              la de sus bienes.
+            </p>
+          </li>
+          <li style="margin-bottom: 20px">
+            <span class="heading-tertiary">Innovación: </span>
+            <p class="paragraph" style="display: inline">
+              La innovación es parte de nosotros, es lo que nos llevó a
+              disruptir en el mercado al digitalizar el proceso..
+            </p>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-      <!-- <section class="section-features">
+    <!-- <section class="section-features">
         <div class="row">
           <div class="col-1-of-4">
             <div class="feature-box">
@@ -238,197 +210,170 @@
         </div>
       </section> -->
 
-      <section class="section-tours" id="section-tours">
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">Productos</h2>
-        </div>
+    <section class="section-tours" id="section-tours">
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">Productos</h2>
+      </div>
 
-        <div class="row">
-          <div class="col-1-of-4">
-            <div class="card">
-              <div class="card__side card__side--front">
-                <div class="card__picture card__picture--1">&nbsp;</div>
-                <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1"
-                    >Testamento digital</span
-                  >
-                </h4>
-                <div class="card__details">
-                  <ul>
-                    <li>Beneficios fiscales para los beneficiarios</li>
-                    <li>Totalmente inembargables</li>
-                    <li>Los beneficiarios evitan un proceso legal</li>
-                    <li>Podrás agregar a tu testamento activos digitales</li>
-                    <li>Lo puedes cambiar en cualquier momento</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-1">
-                <div class="card__cta">
-                  <p class="paragraph" style="color: white">
-                    Con el testamento digital te olvidarás de los problemas que
-                    atraviesas con el testamento tradicional. Ahora tu
-                    testamento no responderá a tus deudas, por lo que tus bienes
-                    serán transmitidos totalmente íntegros; tus beneficiarios no
-                    tendrán que atravesar por ningún proceso legal, lo cual sí
-                    tendrían que hacer con el testamento tradicional. Los
-                    beneficiarios tampoco tendrán que pagar impuestos sobre la
-                    herencia, además que tus bienes y su repartición es
-                    totalmente confidencial.
-                  </p>
-                </div>
+      <div class="row">
+        <div class="col-1-of-4">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">Testamento digital</span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Beneficios fiscales para los beneficiarios</li>
+                  <li>Totalmente inembargables</li>
+                  <li>Los beneficiarios evitan un proceso legal</li>
+                  <li>Podrás agregar a tu testamento activos digitales</li>
+                  <li>Lo puedes cambiar en cualquier momento</li>
+                </ul>
               </div>
             </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="card">
-              <div class="card__side card__side--front">
-                <div class="card__picture card__picture--2">&nbsp;</div>
-                <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--2"
-                    >Planeación patrimonial</span
-                  >
-                </h4>
-                <div class="card__details">
-                  <ul>
-                    <li>Protección y administración de tus bienes</li>
-                    <li>
-                      Compra / venta / renta de bienes materiales e inmateriales
-                    </li>
-                    <li>Acceso a todas tus cuentas bancarias desde la App</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-2">
-                <div class="card__cta">
-                  <p class="paragraph" style="color: white">
-                    La planeación patrimonial te dará la oportunidad de delegar
-                    actividades, como lo son el cuidado de tus bienes, la compra
-                    / venta / renta de los mismos. Esta función al igual que
-                    todas te protege de cualquier demanda o proceso legal en el
-                    que tus bienes puedan ser embargados, pues éstos no podrán
-                    ser tocados.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-1-of-4">
-            <div class="card">
-              <div class="card__side card__side--front">
-                <div class="card__picture card__picture--3">&nbsp;</div>
-                <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--3"
-                    >Ahorro e inversión</span
-                  >
-                </h4>
-                <div class="card__details">
-                  <ul>
-                    <li>Ahorro para el retiro</li>
-                    <li>Ahorro para la educación de tus hijos</li>
-                    <li>Inversiones de riesgo bajo y alto</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-3">
-                <div class="card__cta">
-                  <p class="paragraph" style="color: white">
-                    Con la función de ahorro e inversiones te olvidarás del
-                    análisis de posibles inversiones; ahora nuestros expertos se
-                    encargarán de eso, tú sólo deberás elegir el riesgo que
-                    quieres tomar. Esta función también pondrá a tu alcance
-                    planes de ahorro para tu retiro, para la educación de tus
-                    hijos, para irte de vacaciones, etc.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col-1-of-4">
-            <div class="card">
-              <div class="card__side card__side--front">
-                <div class="card__picture card__picture--1">&nbsp;</div>
-                <h4 class="card__heading">
-                  <span class="card__heading-span card__heading-span--1"
-                    >Pymes</span
-                  >
-                </h4>
-                <div class="card__details">
-                  <ul>
-                    <li>Control y administración de tus negocios</li>
-                    <li>&nbsp;</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="card__side card__side--back card__side--back-1">
-                <div class="card__cta">
-                  <p class="paragraph" style="color: white">
-                    La función de negocios te permitirá tener control sobre las
-                    cuentas bancarias de tu empresa, para facilitarte un
-                    análisis financiero que te lleve a la toma de desiciones.
-                  </p>
-                </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <p class="paragraph" style="color: white">
+                  Con el testamento digital te olvidarás de los problemas que
+                  atraviesas con el testamento tradicional. Ahora tu
+                  testamento no responderá a tus deudas, por lo que tus bienes
+                  serán transmitidos totalmente íntegros; tus beneficiarios no
+                  tendrán que atravesar por ningún proceso legal, lo cual sí
+                  tendrían que hacer con el testamento tradicional. Los
+                  beneficiarios tampoco tendrán que pagar impuestos sobre la
+                  herencia, además que tus bienes y su repartición es
+                  totalmente confidencial.
+                </p>
               </div>
             </div>
           </div>
         </div>
 
-        <div class="u-center-text u-margin-top-huge">
-          <a href="#section-book" class="btn btn--green">¡Vamos!</a>
-        </div>
-      </section>
-
-      <section class="section-stories">
-        <div class="bg-video">
-          <video class="bg-video__content" autoplay muted loop>
-            <source src="img/video.mp4" type="video/mp4" />
-            <!-- <source src="img/video.webm" type="video/webm" /> -->
-            Your browser is not supported!
-          </video>
-        </div>
-
-        <div class="u-center-text u-margin-bottom-big">
-          <h2 class="heading-secondary">
-            Testamento digital vs Testamento tradicional
-          </h2>
-        </div>
-        <div
-          class="row"
-          style="display: flex; flex-direction: column; align-items: center"
-        >
-          <div class="process-step">
-
-            <img
-              src="img/proceso-digital1.png"
-              class="process-step__image"
-              alt="flujo del diagrama"
-            />
-            <img
-              src="img/proceso-tradicional1.png"
-              class="process-step__image"
-              alt="flujo del diagrama"
-            />
+        <div class="col-1-of-4">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--2">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--2">Planeación patrimonial</span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Protección y administración de tus bienes</li>
+                  <li>
+                    Compra / venta / renta de bienes materiales e inmateriales
+                  </li>
+                  <li>Acceso a todas tus cuentas bancarias desde la App</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-2">
+              <div class="card__cta">
+                <p class="paragraph" style="color: white">
+                  La planeación patrimonial te dará la oportunidad de delegar
+                  actividades, como lo son el cuidado de tus bienes, la compra
+                  / venta / renta de los mismos. Esta función al igual que
+                  todas te protege de cualquier demanda o proceso legal en el
+                  que tus bienes puedan ser embargados, pues éstos no podrán
+                  ser tocados.
+                </p>
+              </div>
+            </div>
           </div>
-          <img
-            src="img/proceso2.png"
-            class="process-step__image"
-            alt="flujo del diagrama"
-          />
-          <img
-            src="img/proceso3.png"
-            class="process-step__image"
-            alt="flujo del diagrama"
-          />
-          <img
-            src="img/proceso4.png"
-            class="process-step__image"
-            alt="flujo del diagrama"
-          />
         </div>
 
-        <!-- <div class="row">
+        <div class="col-1-of-4">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--3">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--3">Ahorro e inversión</span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Ahorro para el retiro</li>
+                  <li>Ahorro para la educación de tus hijos</li>
+                  <li>Inversiones de riesgo bajo y alto</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-3">
+              <div class="card__cta">
+                <p class="paragraph" style="color: white">
+                  Con la función de ahorro e inversiones te olvidarás del
+                  análisis de posibles inversiones; ahora nuestros expertos se
+                  encargarán de eso, tú sólo deberás elegir el riesgo que
+                  quieres tomar. Esta función también pondrá a tu alcance
+                  planes de ahorro para tu retiro, para la educación de tus
+                  hijos, para irte de vacaciones, etc.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-1-of-4">
+          <div class="card">
+            <div class="card__side card__side--front">
+              <div class="card__picture card__picture--1">&nbsp;</div>
+              <h4 class="card__heading">
+                <span class="card__heading-span card__heading-span--1">Pymes</span>
+              </h4>
+              <div class="card__details">
+                <ul>
+                  <li>Control y administración de tus negocios</li>
+                  <li>&nbsp;</li>
+                </ul>
+              </div>
+            </div>
+            <div class="card__side card__side--back card__side--back-1">
+              <div class="card__cta">
+                <p class="paragraph" style="color: white">
+                  La función de negocios te permitirá tener control sobre las
+                  cuentas bancarias de tu empresa, para facilitarte un
+                  análisis financiero que te lleve a la toma de desiciones.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="u-center-text u-margin-top-huge">
+        <a href="#section-book" class="btn btn--green">¡Vamos!</a>
+      </div>
+    </section>
+
+    <section class="section-stories">
+      <div class="bg-video">
+        <video class="bg-video__content" autoplay muted loop>
+          <source src="img/video.mp4" type="video/mp4" />
+          <!-- <source src="img/video.webm" type="video/webm" /> -->
+          Your browser is not supported!
+        </video>
+      </div>
+
+      <div class="u-center-text u-margin-bottom-big">
+        <h2 class="heading-secondary">
+          Testamento digital vs Testamento tradicional
+        </h2>
+      </div>
+      <div class="row" style="display: flex; justify-content: space-between; align-items: center">
+        <div class="process-step">
+          <img src="img/proceso-digital1.png" class="process-step__image" alt="flujo del diagrama" />
+          <img src="img/proceso-digital2.png" class="process-step__image" alt="flujo del diagrama" />
+          <img src="img/proceso-digital3.png" class="process-step__image" alt="flujo del diagrama" />
+          <img src="img/proceso-digital4.png" class="process-step__image" alt="flujo del diagrama" />
+        </div>
+        <div class="process-step">
+          <img src="img/proceso-tradicional1.png" class="process-step__image" alt="flujo del diagrama" />
+          <img src="img/proceso-tradicional2.png" class="process-step__image" alt="flujo del diagrama" />
+          <img src="img/proceso-tradicional3.png" class="process-step__image" alt="flujo del diagrama" />
+          <img src="img/proceso-tradicional4.png" class="process-step__image" alt="flujo del diagrama" />
+        </div>
+      </div>
+
+      <!-- <div class="row">
           <div class="story">
             <figure class="story__shape">
               <img
@@ -478,58 +423,36 @@
           </div>
         </div> -->
 
-        <!-- <div class="u-center-text u-margin-top-huge">
+      <!-- <div class="u-center-text u-margin-top-huge">
           <a href="#" class="btn-text">Read all stories &rarr;</a>
         </div> -->
-      </section>
+    </section>
 
-      <section class="section-book" id="section-book">
-        <div class="row">
-          <div class="book">
-            <div class="book__form">
-              <form class="form" id="dataForm">
-                <div class="u-margin-bottom-medium">
-                  <h2 class="heading-secondary">Te contactamos</h2>
-                </div>
+    <section class="section-book" id="section-book">
+      <div class="row">
+        <div class="book">
+          <div class="book__form">
+            <form class="form" id="dataForm">
+              <div class="u-margin-bottom-medium">
+                <h2 class="heading-secondary">Te contactamos</h2>
+              </div>
 
-                <div class="form__group">
-                  <input
-                    type="text"
-                    class="form__input"
-                    placeholder="Nombre completo"
-                    name="name"
-                    id="name"
-                    required
-                  />
-                  <label for="name" class="form__label">Nombre completo</label>
-                </div>
-                <div class="form__group">
-                  <input
-                    type="text"
-                    class="form__input"
-                    placeholder="Teléfono"
-                    name="phone"
-                    id="phone"
-                    required
-                  />
-                  <label for="phone" class="form__label">Teléfono</label>
-                </div>
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Nombre completo" name="name" id="name" required />
+                <label for="name" class="form__label">Nombre completo</label>
+              </div>
+              <div class="form__group">
+                <input type="text" class="form__input" placeholder="Teléfono" name="phone" id="phone" required />
+                <label for="phone" class="form__label">Teléfono</label>
+              </div>
 
-                <div class="form__group">
-                  <input
-                    type="email"
-                    class="form__input"
-                    name="email"
-                    placeholder="Correo electrónico"
-                    id="email"
-                    required
-                  />
-                  <label for="email" class="form__label"
-                    >Correo electrónico</label
-                  >
-                </div>
+              <div class="form__group">
+                <input type="email" class="form__input" name="email" placeholder="Correo electrónico" id="email"
+                  required />
+                <label for="email" class="form__label">Correo electrónico</label>
+              </div>
 
-                <!-- <div class="form__group">
+              <!-- <div class="form__group">
                   <input
                     type="text"
                     class="form__input"
@@ -541,7 +464,7 @@
                   <label for="phone" class="form__label">Teléfono </label>
                 </div> -->
 
-                <!-- <div class="form__group u-margin-bottom-medium">
+              <!-- <div class="form__group u-margin-bottom-medium">
                   <div class="form__radio-group">
                     <input
                       type="radio"
@@ -569,216 +492,181 @@
                   </div>
                 </div> -->
 
-                <div class="form__group">
-                  <button class="btn btn--green" id="submitButton">
-                    Enviar &rarr;
-                  </button>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-
-    <footer class="footer" id="footer">
-      <div class="footer__logo-box">
-        <picture class="footer__logo">
-          <img alt="Full logo" src="img/logo-financiera-footer.png" />
-        </picture>
-      </div>
-      <div class="row">
-        <div class="col-1-of-2">
-          <div class="footer__navigation">
-            <ul class="footer__list">
-              <li class="footer__item">
-                <a href="#section-about" class="footer__link"
-                  >¿Quiénes somos?</a
-                >
-              </li>
-              <li class="footer__item">
-                <a href="#section-tours" class="footer__link">Productos</a>
-              </li>
-              <li class="footer__item">
-                <a href="#section-book" class="footer__link">Contáctanos</a>
-              </li>
-              <li class="footer__item">
-                <a href="#popup" class="footer__link">Aviso de privacidad</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-1-of-2">
-          <div class="footer__social">
-            <a
-              class="footer__social--link"
-              href="https://www.facebook.com/profile.php?id=100085851549842 "
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                class="footer__social--img"
-                src="img/facebook.svg"
-                alt="facebook"
-              />
-            </a>
-            <a
-              class="footer__social--link"
-              href="https://www.instagram.com/fitalmx/ "
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                class="footer__social--img"
-                src="img/instagram.svg"
-                alt="instagram"
-              />
-            </a>
-            <a
-              class="footer__social--link"
-              href="#"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                class="footer__social--img"
-                src="img/linkeding.svg"
-                alt="linkedin"
-              />
-            </a>
-            <a
-              class="footer__social--link"
-              href="https://www.youtube.com/channel/UCTHNrpg-xqBZUQ-We_YFQ4A "
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                class="footer__social--img"
-                src="img/youtube.svg"
-                alt="youtube"
-              />
-            </a>
+              <div class="form__group">
+                <button class="btn btn--green" id="submitButton">
+                  Enviar &rarr;
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       </div>
-    </footer>
+    </section>
+  </main>
 
-    <div class="popup" id="popup">
-      <div class="popup__content">
-        <div class="popup__right">
-          <a href="#footer" class="popup__close">&times;</a>
-          <h2 class="heading-secondary u-margin-bottom-small">
-            Aviso de privacidad
-          </h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">
-            AVISO DE PRIVACIDAD INTEGRAL PARA EL MANEJO DE DATOS PERSONALES
-            DERIVADO DE LA CONVOCATORIA “SOLUCIONES 2030”
-          </h3>
-          <p class="popup__text">
-            Denominación y domicilio del responsable1 Master Mobility, con
-            domicilio en Nte 35 747, Industrial Vallejo, Azcapotzalco, 02300
-            Ciudad de México, es responsables del tratamiento de los datos
-            personales que proporcione para los fines de la Convocatoria
-            “Soluciones 2030”, información que será protegida conforme a lo
-            dispuesto por la Ley General de Protección de Datos Personales en
-            Posesión de Sujetos Obligados2 (en lo sucesivo, Ley General), los
-            Lineamientos Generales de Protección de Datos Personales para el
-            Sector Público (en lo sucesivo Lineamientos Generales)3 y demás
-            normatividad aplicable. ¿Qué datos personales recabamos y con qué
-            finalidad?4 Nombre(s), primer y segundo apellidos, correo
-            electrónico personal, correo electrónico de apoyo, números
-            telefónicos, y datos para localización (entidad, municipio, código
-            postal). Sus datos personales serán utilizados para: · Verificar y
-            confirmar su identidad, así como la autenticidad de la información
-            que nos proporcione, para contar con un registro que permita
-            identificar con precisión a aquellos participantes de la
-            Convocatoria para participar en el Encuentro Soluciones 2030
-            publicada en http://economia.gob.mx/agenda2030/soluciones2030. ·
-            Integrar expedientes y bases de datos necesarias para la integración
-            de los participantes de Soluciones 2030: impulsando el desarrollo
-            local sostenible. · Analizar y sistemar la información sobre
-            necesidades de desarrollo local en México · Mantener una base
-            histórica con fines estadísticos. De manera adicional, los datos
-            personales que se recaben, podrán ser utilizados en actividades
-            complementarias necesarias para la realización de las finalidades
-            que se señalan; el tratamiento de datos personales será el que
-            resulte necesario, adecuado y relevante en relación con las
-            finalidades previstas en este Aviso de Privacidad, así como con los
-            fines que resulten compatibles o complementarios relacionados con
-            los fines señalados. Si no desea que sus datos personales se
-            utilicen para estas finalidades adicionales, al momento de su
-            registro deberá manifestar su voluntad en sentido contrario. Para
-            los efectos del registro no se recabarán datos personales sensibles.
-            1 Requisitos previstos por los artículos 27, primer párrafo,
-            fracción I, y 28, fracción I, de la Ley General; 30 y 37 de los
-            Lineamientos Generales. 2 Publicada en el Diario Oficial de la
-            Federación el 26 de enero de 2017. 3 Publicados en el Diario Oficial
-            de la Federación el 26 de enero de 2018. 4 Requisitos previstos por
-            los artículos 27, primer párrafo, fracción II, 28, fracciones II y
-            IV, de la Ley General; 31 y 38 de los Lineamientos Generales.
-            Fundamento para el tratamiento de datos personales5 El tratamiento
-            de sus datos personales se realiza con fundamento en el artículo
-            4o., 16, 73 fracción XVI, base 2ª y 3ª de la Constitución Política
-            de los Estados Unidos Mexicanos6; 16, 18, 21, 22, 25, 26 y 65 de la
-            Ley General de Protección de Datos Personales en Posesión de Sujetos
-            Obligados7. Transferencia de datos personales Sus datos personales
-            no serán transferidos, difundidos, ni distribuidos, salvo lo
-            señalado en el artículo 22 de la Ley General de Protección de Datos
-            Personales en Posesión de Sujetos Obligados o en el caso que exista
-            consentimiento expreso de su parte por medio escrito o por medio de
-            autenticación similar. Sólo tendrán acceso a esta información el
-            titular de los datos, sus representantes legales y los servidores
-            públicos facultados para ello. ¿Dónde puedo ejercer mis derechos
-            Acceso, Rectificación, Cancelación y Oposición?8 Usted podrá ejercer
-            los derechos de acceso, rectificación, cancelación y oposición
-            (Derechos ARCO), al tratamiento, al tratamiento de sus datos
-            personales, mediante un escrito libre dirigido a la Unidad de
-            Transparencia de la Secretaría de Economía con domicilio en calle
-            Pachuca número 189, planta baja, Colonia Cuauhtémoc, Alcaldía
-            Cuauhtémoc, Código Postal 06140, en la Ciudad de México, Teléfono:
-            5557299100 Ext. 11327, correo electrónico
-            unidaddetransparencia@economia.gob.mx. O bien, a través de la
-            Plataforma Nacional de Transparencia, disponible en
-            http://www.plataformadetransparencia.org.mx. Cambios en este aviso
-            de privacidad9 El presente aviso de privacidad puede ser objeto de
-            modificaciones, cambios o actualizaciones derivadas de nuevos
-            requerimientos legales o por otras causas. Nos comprometemos a
-            mantenerlo informado sobre los cambios que pueda sufrir el presente
-            aviso de privacidad, a través de la presente página de internet
-            http://economia.gob.mx/agenda2030/soluciones2030. Exclusiones El
-            ejercicio del derecho a la portabilidad, previsto en el artículo 57
-            de la Ley General y en los Lineamientos que establecen los
-            parámetros, modalidades y procedimientos para la portabilidad de
-            datos personales no es compatible con el tratamiento de datos
-            personales, toda vez que el tratamiento efectuado no se realizará en
-            un formato estructurado y comúnmente utilizado. 5 Requisito previsto
-            por los artículos 28, fracción III, de la Ley General y 39 de los
-            Lineamientos Generales. 6 Última reforma publicada en el Diario
-            Oficial de la Federación el 08 de mayo de 2020. 7 Publicada en el
-            Diario Oficial de la Federación el 26 de enero de 2017. 8 Requisito
-            previsto por los artículos 28, fracción V, de la Ley General, y 40
-            de los Lineamientos Generales. 9 Requisito previsto por el artículo
-            28, fracción VII, de la Ley General, y 42 de los
-            Lineamientos Generales.
-          </p>
-          <a href="#footer" class="btn btn--green">Entendido</a>
+  <footer class="footer" id="footer">
+    <div class="footer__logo-box">
+      <picture class="footer__logo">
+        <img alt="Full logo" src="img/logo-financiera-footer.png" />
+      </picture>
+    </div>
+    <div class="row">
+      <div class="col-1-of-2">
+        <div class="footer__navigation">
+          <ul class="footer__list">
+            <li class="footer__item">
+              <a href="#section-about" class="footer__link">¿Quiénes somos?</a>
+            </li>
+            <li class="footer__item">
+              <a href="#section-tours" class="footer__link">Productos</a>
+            </li>
+            <li class="footer__item">
+              <a href="#section-book" class="footer__link">Contáctanos</a>
+            </li>
+            <li class="footer__item">
+              <a href="#popup" class="footer__link">Aviso de privacidad</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-1-of-2">
+        <div class="footer__social">
+          <a class="footer__social--link" href="https://www.facebook.com/profile.php?id=100085851549842 "
+            target="_blank" rel="noreferrer">
+            <img class="footer__social--img" src="img/facebook.svg" alt="facebook" />
+          </a>
+          <a class="footer__social--link" href="https://www.instagram.com/fitalmx/ " target="_blank" rel="noreferrer">
+            <img class="footer__social--img" src="img/instagram.svg" alt="instagram" />
+          </a>
+          <a class="footer__social--link" href="#" target="_blank" rel="noreferrer">
+            <img class="footer__social--img" src="img/linkeding.svg" alt="linkedin" />
+          </a>
+          <a class="footer__social--link" href="https://www.youtube.com/channel/UCTHNrpg-xqBZUQ-We_YFQ4A "
+            target="_blank" rel="noreferrer">
+            <img class="footer__social--img" src="img/youtube.svg" alt="youtube" />
+          </a>
         </div>
       </div>
     </div>
-    <div class="popup" id="success">
-      <div class="popup__content">
-        <div class="popup__right">
-          <a href="#section-book" class="popup__close">&times;</a>
-          <h2 class="heading-secondary u-margin-bottom-small">
-            Felicidades
-          </h2>
-          <h3 class="heading-tertiary u-margin-bottom-small">
-            Tus datos han sido enviados con exito
-          </h3>
-          <a href="#section-book" class="btn btn--green">Entendido</a>
-        </div>
+  </footer>
+
+  <div class="popup" id="popup">
+    <div class="popup__content">
+      <div class="popup__right">
+        <a href="#footer" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">
+          Aviso de privacidad
+        </h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">
+          AVISO DE PRIVACIDAD INTEGRAL PARA EL MANEJO DE DATOS PERSONALES
+          DERIVADO DE LA CONVOCATORIA “SOLUCIONES 2030”
+        </h3>
+        <p class="popup__text">
+          Denominación y domicilio del responsable1 Master Mobility, con
+          domicilio en Nte 35 747, Industrial Vallejo, Azcapotzalco, 02300
+          Ciudad de México, es responsables del tratamiento de los datos
+          personales que proporcione para los fines de la Convocatoria
+          “Soluciones 2030”, información que será protegida conforme a lo
+          dispuesto por la Ley General de Protección de Datos Personales en
+          Posesión de Sujetos Obligados2 (en lo sucesivo, Ley General), los
+          Lineamientos Generales de Protección de Datos Personales para el
+          Sector Público (en lo sucesivo Lineamientos Generales)3 y demás
+          normatividad aplicable. ¿Qué datos personales recabamos y con qué
+          finalidad?4 Nombre(s), primer y segundo apellidos, correo
+          electrónico personal, correo electrónico de apoyo, números
+          telefónicos, y datos para localización (entidad, municipio, código
+          postal). Sus datos personales serán utilizados para: · Verificar y
+          confirmar su identidad, así como la autenticidad de la información
+          que nos proporcione, para contar con un registro que permita
+          identificar con precisión a aquellos participantes de la
+          Convocatoria para participar en el Encuentro Soluciones 2030
+          publicada en http://economia.gob.mx/agenda2030/soluciones2030. ·
+          Integrar expedientes y bases de datos necesarias para la integración
+          de los participantes de Soluciones 2030: impulsando el desarrollo
+          local sostenible. · Analizar y sistemar la información sobre
+          necesidades de desarrollo local en México · Mantener una base
+          histórica con fines estadísticos. De manera adicional, los datos
+          personales que se recaben, podrán ser utilizados en actividades
+          complementarias necesarias para la realización de las finalidades
+          que se señalan; el tratamiento de datos personales será el que
+          resulte necesario, adecuado y relevante en relación con las
+          finalidades previstas en este Aviso de Privacidad, así como con los
+          fines que resulten compatibles o complementarios relacionados con
+          los fines señalados. Si no desea que sus datos personales se
+          utilicen para estas finalidades adicionales, al momento de su
+          registro deberá manifestar su voluntad en sentido contrario. Para
+          los efectos del registro no se recabarán datos personales sensibles.
+          1 Requisitos previstos por los artículos 27, primer párrafo,
+          fracción I, y 28, fracción I, de la Ley General; 30 y 37 de los
+          Lineamientos Generales. 2 Publicada en el Diario Oficial de la
+          Federación el 26 de enero de 2017. 3 Publicados en el Diario Oficial
+          de la Federación el 26 de enero de 2018. 4 Requisitos previstos por
+          los artículos 27, primer párrafo, fracción II, 28, fracciones II y
+          IV, de la Ley General; 31 y 38 de los Lineamientos Generales.
+          Fundamento para el tratamiento de datos personales5 El tratamiento
+          de sus datos personales se realiza con fundamento en el artículo
+          4o., 16, 73 fracción XVI, base 2ª y 3ª de la Constitución Política
+          de los Estados Unidos Mexicanos6; 16, 18, 21, 22, 25, 26 y 65 de la
+          Ley General de Protección de Datos Personales en Posesión de Sujetos
+          Obligados7. Transferencia de datos personales Sus datos personales
+          no serán transferidos, difundidos, ni distribuidos, salvo lo
+          señalado en el artículo 22 de la Ley General de Protección de Datos
+          Personales en Posesión de Sujetos Obligados o en el caso que exista
+          consentimiento expreso de su parte por medio escrito o por medio de
+          autenticación similar. Sólo tendrán acceso a esta información el
+          titular de los datos, sus representantes legales y los servidores
+          públicos facultados para ello. ¿Dónde puedo ejercer mis derechos
+          Acceso, Rectificación, Cancelación y Oposición?8 Usted podrá ejercer
+          los derechos de acceso, rectificación, cancelación y oposición
+          (Derechos ARCO), al tratamiento, al tratamiento de sus datos
+          personales, mediante un escrito libre dirigido a la Unidad de
+          Transparencia de la Secretaría de Economía con domicilio en calle
+          Pachuca número 189, planta baja, Colonia Cuauhtémoc, Alcaldía
+          Cuauhtémoc, Código Postal 06140, en la Ciudad de México, Teléfono:
+          5557299100 Ext. 11327, correo electrónico
+          unidaddetransparencia@economia.gob.mx. O bien, a través de la
+          Plataforma Nacional de Transparencia, disponible en
+          http://www.plataformadetransparencia.org.mx. Cambios en este aviso
+          de privacidad9 El presente aviso de privacidad puede ser objeto de
+          modificaciones, cambios o actualizaciones derivadas de nuevos
+          requerimientos legales o por otras causas. Nos comprometemos a
+          mantenerlo informado sobre los cambios que pueda sufrir el presente
+          aviso de privacidad, a través de la presente página de internet
+          http://economia.gob.mx/agenda2030/soluciones2030. Exclusiones El
+          ejercicio del derecho a la portabilidad, previsto en el artículo 57
+          de la Ley General y en los Lineamientos que establecen los
+          parámetros, modalidades y procedimientos para la portabilidad de
+          datos personales no es compatible con el tratamiento de datos
+          personales, toda vez que el tratamiento efectuado no se realizará en
+          un formato estructurado y comúnmente utilizado. 5 Requisito previsto
+          por los artículos 28, fracción III, de la Ley General y 39 de los
+          Lineamientos Generales. 6 Última reforma publicada en el Diario
+          Oficial de la Federación el 08 de mayo de 2020. 7 Publicada en el
+          Diario Oficial de la Federación el 26 de enero de 2017. 8 Requisito
+          previsto por los artículos 28, fracción V, de la Ley General, y 40
+          de los Lineamientos Generales. 9 Requisito previsto por el artículo
+          28, fracción VII, de la Ley General, y 42 de los
+          Lineamientos Generales.
+        </p>
+        <a href="#footer" class="btn btn--green">Entendido</a>
       </div>
     </div>
-    <script src="./script.js"></script>
-  </body>
+  </div>
+  <div class="popup" id="success">
+    <div class="popup__content">
+      <div class="popup__right">
+        <a href="#section-book" class="popup__close">&times;</a>
+        <h2 class="heading-secondary u-margin-bottom-small">
+          Felicidades
+        </h2>
+        <h3 class="heading-tertiary u-margin-bottom-small">
+          Tus datos han sido enviados con exito
+        </h3>
+        <a href="#section-book" class="btn btn--green">Entendido</a>
+      </div>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
 </html>
